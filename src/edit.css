@@ -1,0 +1,90 @@
+﻿
+.edit-customer-form {
+    background-color: #00695C;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    color: #ffffff;
+}
+
+    .edit-customer-form h2 {
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .edit-customer-form form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edit-customer-form label {
+        margin-bottom: 15px;
+    }
+
+    .edit-customer-form input[type="text"],
+    .edit-customer-form input[type="number"],
+    .edit-customer-form input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 5px;
+    }
+
+    .edit-customer-form button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #00695C;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+        .edit-customer-form button:hover {
+            background-color: #004d40;
+        }
+
+.customer-jobs-section,
+.customer-relations-section {
+    margin-top: 20px;
+}
+
+    .customer-jobs-section h3,
+    .customer-relations-section h3 {
+        color: #ffffff;
+        margin-bottom: 15px;
+    }
+
+.job-form,
+.relation-form {
+    border: 0px solid #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #00695C;
+}
+
+    .job-form label,
+    .relation-form label {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .job-form input,
+    .relation-form input {
+        margin-top: 5px;
+    }
+
+button[type="button"] {
+    background-color: #004d40;
+    margin-top: 10px;
+}
+
+    button[type="button"]:hover {
+        background-color: #00332d;
+    }
